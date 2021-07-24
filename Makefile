@@ -1,1 +1,2 @@
-gcc -Wall fact.c -o fact
+all:
+	gcc -O3 -Wall fact.c -o a
